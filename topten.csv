@@ -1,0 +1,11 @@
+Optimizer,LearningRate,Activation,WeightsInitialization,Regularization,Dropout,BatchSize,TrainAcc,TestAcc
+RMSprop,0.1,sigmoid,he_normal,1e-05,0.2,64,0.9342262148857116,0.9352381229400636
+SGD,0.1,tanh,glorot_uniform,1e-05,0.2,32,0.9357,0.935
+RMSprop,0.01,sigmoid,he_normal,1e-05,0.2,32,0.9351,0.9348
+RMSprop,0.001,relu,glorot_uniform,1e-05,0.2,16,0.9352,0.9348
+RMSprop,0.01,sigmoid,he_normal,1e-05,0.2,16,0.9352,0.9348
+RMSprop,0.01,sigmoid,orthogonal,1e-05,0.2,16,0.9342,0.9348
+RMSprop,0.01,sigmoid,orthogonal,1e-05,0.4,32,0.9347,0.9348
+RMSprop,0.01,sigmoid,glorot_uniform,1e-05,0.4,32,0.9349,0.9348
+Adam,0.01,relu,glorot_uniform,0.0001,0.0,32,0.93535715341568,0.934761881828308
+Adam,0.01,relu,glorot_uniform,0.0001,0.0,16,0.9344047904014589,0.934761881828308
